@@ -1,3 +1,17 @@
+<script setup lang='ts'>
+import Layout from '@/layout/Layout.vue';
+import Navbar from '@/components/Navbar.vue';
+import Footer from '@/components/Footer.vue';
+import UnderConstruction from '@/components/UnderConstruction.vue';
+
+</script>
+
 <template>
-    <h2 class="text-red-600">Hello, World</h2>
+    <Layout>
+        <Navbar active="home" />
+        <main>
+            <UnderConstruction />
+        </main>
+        <Footer />
+    </Layout>
 </template>

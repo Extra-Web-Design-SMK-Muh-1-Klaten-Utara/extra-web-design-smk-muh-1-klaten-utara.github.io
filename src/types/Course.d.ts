@@ -7,7 +7,8 @@ type Course = {
 }
 
 type Courses = {
-    name: string,
+    semester: string,
+    year: number,
     totalCourses: number,
     listCourses: Array<Course>,
 }

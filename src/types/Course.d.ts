@@ -4,6 +4,9 @@ type Course = {
 
     // Github repo name
     name: string,
+
+    // Link to the deployment
+    deploy_link: string,
 }
 
 type Courses = {

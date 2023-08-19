@@ -1,7 +1,6 @@
-<script setup lang='ts'>
-
+<script setup lang="ts">
 const props = defineProps<{
-    active?: string,
+    active?: string;
 }>();
 
 const classActive = "font-bold underline text-white tracking-wide";
@@ -13,24 +12,24 @@ function decorateLink(name: string): string {
 </script>
 
 <template>
-    <nav class='flex gap-4 justify-between bg-black py-4 px-12'>
+    <nav class="flex gap-4 justify-between bg-black py-4 px-12">
         <div>
             <header>
-                <h2 class='text-2xl font-bold'>Extra Web Tech</h2>
+                <h2 class="text-2xl font-bold">Extra Web Tech</h2>
             </header>
         </div>
         <div>
-            <ul class='flex gap-4'>
+            <ul class="flex gap-4">
                 <li>
-                    <a href="#" :class='decorateLink("home")'>Home</a>
+                    <a href="#" :class="decorateLink('home')">Home</a>
                 </li>
 
                 <li>
-                    <a href="#" :class='decorateLink("about")'>About</a>
+                    <a href="#" :class="decorateLink('about')">About</a>
                 </li>
 
                 <li>
-                    <a href="#" :class='decorateLink("courses")'>Courses</a>
+                    <a href="#" :class="decorateLink('courses')">Courses</a>
                 </li>
             </ul>
         </div>

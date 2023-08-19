@@ -1,19 +1,19 @@
 type Course = {
     // Github id of repo
-    id: string
+    id: string;
 
     // Github repo name
-    name: string,
+    name: string;
 
     // Link to the deployment
-    deploy_link: string,
-}
+    deploy_link: string;
+};
 
 type Courses = {
-    semester: string,
-    year: number,
-    totalCourses: number,
-    listCourses: Array<Course>,
-}
+    semester: string;
+    year: number;
+    totalCourses: number;
+    listCourses: Array<Course>;
+};
 
-export type { Course, Courses }
+export type { Course, Courses };

@@ -1,12 +1,12 @@
 type Progress = {
     // special id from github repo
-    id: string,
+    id: string;
 
     // name github repo
-    name: string,
+    name: string;
 
     // Is it completed or not
-    status: boolean,
-}
+    status: boolean;
+};
 
 export type { Progress };
